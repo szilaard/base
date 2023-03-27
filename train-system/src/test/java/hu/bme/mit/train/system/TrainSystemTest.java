@@ -90,6 +90,7 @@ public class TrainSystemTest {
 		Assert.assertEquals(20, controller.getReferenceSpeed());
 		user.turnEmergencyBreakOn();
 		controller.followSpeed();
+		controller.followSpeed();
 		Assert.assertEquals(0, controller.getReferenceSpeed());
 
 
